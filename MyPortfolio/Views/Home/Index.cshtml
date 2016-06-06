@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <a href=@Url.Action("About", "Home")><img class="img-circle" src="~/Images/me.jpg" /></a>
+        </div>
+        <div class="col-md-4">
+            <a href=@Url.Action("Contact","Home")><img class="img-circle" src="~/Images/phone_icon.png" /></a>
+        </div>
+        <div class="col-md-4">
+            <a href=@Url.Action("Index", "Projects")><img class="img-circle" src="~/Images/projects.jpg" /></a>
+        </div>
+    </div>
+</div>

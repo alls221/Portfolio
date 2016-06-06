@@ -1,0 +1,59 @@
+﻿/*PREMADE CSS*/
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+/*AFFECTS OVER ALL PAGES*/
+.head a{
+    text-decoration:none;
+    background-color:#5E548E;
+    font-size: 100px !important;
+    color: #4ADF62 !important;
+    margin-bottom:100px;
+  font-family: 'Raleway', sans-serif;
+}
+.head{
+    text-align:center;
+}
+
+body
+{
+    background-color:#5E548E;
+    color:#F7F052;
+}
+/*HOME PAGE*/
+
+/*Make round images buttons for home screen*/
+.img-circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.thumbnail
+{
+    width:400px;
+    height:300px;
+    border: 5px solid #4ADF62;
+    background: #8eedf7;
+    margin-bottom:15px;
+}
